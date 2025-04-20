@@ -5,7 +5,7 @@ FROM openjdk:21-jdk
 WORKDIR /app
 
 # Copy the JAR file into the container
-COPY target/hello-student-0.0.1-SNAPSHOT.jar app.jar
+COPY target/hello-student-0.0.1-SNAPSHOT.jar app
 
 # Expose the port the app will run on
 EXPOSE 8080
